@@ -137,6 +137,13 @@ h6 {
     font-size: 35px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 575px) {
   .et-section-title {
     font-size: 33px;
